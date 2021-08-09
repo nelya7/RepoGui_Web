@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48795fafbf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="contain">
+    <header class="contain">
         <div class="header container">
             <div class="header-left">
                 <div class="logo">
@@ -30,11 +34,11 @@
                 </div>
             </div>
             <div class="header-right">
-                <a class="cart-image" href="#"><img src="images/cart.png" alt="to cart"></a>
+                <a class="cart-image" href="#"><i class="icon-cart fas fa-shopping-cart"></i></a>
                 <button class="account" type="menu">My Account <img src="images/account.png" alt="my account"></button>
             </div>
         </div>
-    </div>
+    </header>
     <nav>
         <div class="container">
             <ul class="menu">
@@ -230,143 +234,324 @@
                             <a class="box-item__link" href="#">Tops</a>
                             <a class="box-item__link" href="#">Sweaters/Knits</a>
                             <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <div class="picture__box-item"><p class="super">super <br> sale!</p></div>
+                            <div class="picture__box-item">
+                                <p class="super">super <br> sale!</p>
+                            </div>
                         </div>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="top-head">
-        <div class="top-heading container">
-            <div class="main-heading">
-                <div class="pink-line"></div>
-                <h1 class="heading-top"><span class="the-brand">the brand</span> <br> of luxerious <span
-                        class="fashion">fashion</span>
-                </h1>
-            </div>
-        </div>
-    </div>
-    <div class="container photos">
-        <div class="photos-left">
-            <div class="photo-man">
-                <img class="pic-img" src="images/MAN.png" alt="photo">
-                <p class="photo-text_man">hot deal<br> <span class="for-men">for men</span></p>
-            </div>
-            <div class="photo-accsesorise">
-                <img class="pic-img" src="images/ACCESORISE.png" alt="photo">
-                <p class="photo-text_acc">luxerious & trendy<br> <span class="for-men">accesorise</span></p>
-            </div>
-        </div>
-        <div class="photos-right">
-            <div class="photo-women">
-                <img class="pic-img" src="images/WOMEN.png" alt="photo">
-                <p class="photo-text_women">30% offer<br> <span class="for-men">women</span></p>
-            </div>
-            <div class="photo-kids">
-                <img class="pic-img" src="images/KIDS.png" alt="photo">
-                <p class="photo-text_kids">new arrivals<br> <span class="for-men">for kids</span></p>
-            </div>
-        </div>
-    </div>
-    <div class="middle-article">
-        <div class="container middle">
-            <h3 class="middle-head">Fetured Items</h3>
-            <p class="middle-par">Shop for items based on what we featured in this week</p>
-        </div>
-    </div>
-    <div class="card-block">
-        <div class="cards-top container">
-            <div class="card">
-                <img src="images/card_1.png" class="img-card" alt="picture">
-                <h4 class="card-heading">mango people t-shirt</h4>
-                <p class="price">52$</p>
-            </div>
-            <div class="card">
-                <img src="images/card_2.png" class="img-card" alt="picture">
-                <h4 class="card-heading">mango people t-shirt</h4>
-                <p class="price">52$</p>
-            </div>
-            <div class="card">
-                <img src="images/card_3.png" class="img-card" alt="picture">
-                <h4 class="card-heading">mango people t-shirt</h4>
-                <p class="price">52$</p>
-            </div>
-            <div class="card">
-                <img src="images/card_4.png" class="img-card" alt="picture">
-                <h4 class="card-heading">mango people t-shirt</h4>
-                <p class="price">52$</p>
-            </div>
-        </div>
-        <div class="cards-bottom container">
-            <div class="card">
-                <img src="images/card_5.png" class="img-card" alt="picture">
-                <h4 class="card-heading">mango people t-shirt</h4>
-                <p class="price">52$</p>
-            </div>
-            <div class="card">
-                <img src="images/card_6.png" class="img-card" alt="picture">
-                <h4 class="card-heading">mango people t-shirt</h4>
-                <p class="price">52$</p>
-            </div>
-            <div class="card">
-                <img src="images/card_7.png" class="img-card" alt="picture">
-                <h4 class="card-heading">mango people t-shirt</h4>
-                <p class="price">52$</p>
-            </div>
-            <div class="card">
-                <img src="images/card_8.png" class="img-card" alt="picture">
-                <h4 class="card-heading">mango people t-shirt</h4>
-                <p class="price">52$</p>
-            </div>
-        </div>
-        <div class="button-un-cards">
-            <button class="card-button" type="submit">Browse All Product <img src="images/card_button.png"
-                    alt="button"></button>
-        </div>
-    </div>
-    <div class="banner">
-        <div class="container banner-all">
-            <div class="photo-ban">
-                <div class="gradient">
-                    <h2 class="for-women"><span class="percent">30% <span class="offer">offer</span></span> <br> for women
-                    </h2>
-                </div>
-                
-            </div>
-            <div class="ban-info">
-                <div class="ban-info__item">
-                    <img class="img-info" src="images/delivery.svg" alt="delivery">
-                   <div class="info-item__mini">
-                        <h4 class="ban-info__heading">Free Delivery</h4>
-                        <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                            models.</p>
-                   </div>
-                </div>
-                <div class="ban-info__item">
-                    <img class="img-info" src="images/sales.svg" alt="sales">
-                   <div class="info-item__mini">
-                        <h4 class="ban-info__heading">Sales & discounts</h4>
-                        <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                            models.</p>
-                   </div>
-                </div>
-                <div class="ban-info__item">
-                    <img class="img-info" src="images/quality.svg" alt="quality">
-                  <div class="info-item__mini">
-                        <h4 class="ban-info__heading">Quality assurance</h4>
-                        <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                            models.</p>
-                  </div>
+    <header>
+        <div class="top-head">
+            <div class="top-heading container">
+                <div class="main-heading">
+                    <h1 class="heading-top"><span class="the-brand">the brand</span> <br> of luxerious <span
+                            class="fashion">fashion</span>
+                    </h1>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer-top">
-        <div class="footer-blur">
-            <div class="container"></div>
+    </header>
+    <section>
+        <div class="container photos">
+            <div class="photos-left">
+                <div class="photo-man">
+                    <img class="pic-img" src="images/MAN.png" alt="photo">
+                    <p class="photo-text_man">hot deal<br> <span class="for-men">for men</span></p>
+                </div>
+                <div class="photo-accsesorise">
+                    <img class="pic-img" src="images/ACCESORISE.png" alt="photo">
+                    <p class="photo-text_acc">luxerious & trendy<br> <span class="for-men">accesorise</span></p>
+                </div>
+            </div>
+            <div class="photos-right">
+                <div class="photo-women">
+                    <img class="pic-img" src="images/WOMEN.png" alt="photo">
+                    <p class="photo-text_women">30% offer<br> <span class="for-men">women</span></p>
+                </div>
+                <div class="photo-kids">
+                    <img class="pic-img" src="images/KIDS.png" alt="photo">
+                    <p class="photo-text_kids">new arrivals<br> <span class="for-men">for kids</span></p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="middle-article">
+        <div class="container">
+            <div class="middle">
+                <h2 class="middle-head">Fetured Items</h2>
+                <p class="middle-par">Shop for items based on what we featured in this week</p>
+            </div>
+            <div class="card-box">
+                <div class="card">
+                    <a class="card-link" href="#">
+                        <img class="card-img" src="images/card_1.png" alt="карточка товара">
+                        <div class="card-txt">
+                            <h3 class="card-name">Mango People T-shirt</h3>
+                            <p class="price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-button">
+                        <a class="add" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="cart-txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="card-link" href="#">
+                        <img class="card-img" src="images/card_2.png" alt="карточка товара">
+                        <div class="card-txt">
+                            <h3 class="card-name">Mango People T-shirt</h3>
+                            <p class="price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-button">
+                        <a class="add" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="cart-txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="card-link" href="#">
+                        <img class="card-img" src="images/card_3.png" alt="карточка товара">
+                        <div class="card-txt">
+                            <h3 class="card-name">Mango People T-shirt</h3>
+                            <p class="price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-button">
+                        <a class="add" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="cart-txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="card-link" href="#">
+                        <img class="card-img" src="images/card_4.png" alt="карточка товара">
+                        <div class="card-txt">
+                            <h3 class="card-name">Mango People T-shirt</h3>
+                            <p class="price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-button">
+                        <a class="add" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="cart-txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="card-link" href="#">
+                        <img class="card-img" src="images/card_5.png" alt="карточка товара">
+                        <div class="card-txt">
+                            <h3 class="card-name">Mango People T-shirt</h3>
+                            <p class="price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-button">
+                        <a class="add" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="cart-txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="card-link" href="#">
+                        <img class="card-img" src="images/card_6.png" alt="карточка товара">
+                        <div class="card-txt">
+                            <h3 class="card-name">Mango People T-shirt</h3>
+                            <p class="price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-button">
+                        <a class="add" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="cart-txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="card-link" href="#">
+                        <img class="card-img" src="images/card_7.png" alt="карточка товара">
+                        <div class="card-txt">
+                            <h3 class="card-name">Mango People T-shirt</h3>
+                            <p class="price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-button">
+                        <a class="add" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="cart-txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="card-link" href="#">
+                        <img class="card-img" src="images/card_8.png" alt="карточка товара">
+                        <div class="card-txt">
+                            <h3 class="card-name">Mango People T-shirt</h3>
+                            <p class="price">$52.00</p>
+                        </div>
+                    </a>
+                    <div class="add-button">
+                        <a class="add" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="cart-txt">Add to Cart</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-button">
+            <button class="button-style" type="submit">Browse All Product <i class="fas fa-long-arrow-alt-right"></i>
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="banner">
+            <div class="container banner-all">
+                <div class="photo-ban">
+                    <div class="gradient">
+                        <h2 class="for-women"><span class="percent">30% <span class="offer">offer</span></span> <br> for
+                            women
+                        </h2>
+                    </div>
+
+                </div>
+                <div class="ban-info">
+                    <div class="ban-info__item">
+                        <img class="img-info" src="images/delivery.svg" alt="delivery">
+                        <div class="info-item__mini">
+                            <h4 class="ban-info__heading">Free Delivery</h4>
+                            <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph
+                                next-generation
+                                innov tion with extensive
+                                models.</p>
+                        </div>
+                    </div>
+                    <div class="ban-info__item">
+                        <img class="img-info" src="images/sales.svg" alt="sales">
+                        <div class="info-item__mini">
+                            <h4 class="ban-info__heading">Sales & discounts</h4>
+                            <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph
+                                next-generation
+                                innov tion with extensive
+                                models.</p>
+                        </div>
+                    </div>
+                    <div class="ban-info__item">
+                        <img class="img-info" src="images/quality.svg" alt="quality">
+                        <div class="info-item__mini">
+                            <h4 class="ban-info__heading">Quality assurance</h4>
+                            <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph
+                                next-generation
+                                innov tion with extensive
+                                models.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-blur">
+                <div class="container footer-top__all">
+                    <figure class="figure">
+                        <div class="avatar"><img src="images/avatar.png" alt="avatar"></div>
+                        <div class="words">
+                            <div class="citation">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                                a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                            <div class="name"> <span class="bin">Bin Burhan</span> <br> Dhaka, Bd</div>
+                            <div class="lines">
+                                <div class="line"></div>
+                                <div class="sec-line"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </figure>
+                    <div class="vert-line"></div>
+                    <form action="#">
+                        <h2 class="subscribe"><span class="sub">subscribe</span> <br> FOR OUR NEWLETTER AND PROMOTION
+                        </h2>
+                        <div class="input">
+                            <input class="email-line" type="email" placeholder="Enter Your Email"><button type="submit"
+                                class="email-line__button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="footer-nav container">
+                <div class="logo-article">
+                    <div class="logo-footer">
+                        <div class="logo">
+                            <a class="brand" href="#">
+                                <img src="images/logo.png" alt="" width="59" height="51">
+                            </a>
+                        </div>
+                        <div class="bran-D">
+                            <a class="brand-word" href="#">bran<span class="text-D">d</span></a>
+                        </div>
+                    </div>
+                    <p class="footer-text footer-txt">Objectively transition extensive data rather than cross functional
+                        solutions. Monotonectally syndicate multidisciplinary
+                        materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and
+                        cross-unit partnerships.</p> <br>
+                    <p class="footer-text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                </div>
+                <nav class="footer-li-article">
+                    <h3 class="footer-li-head">COMPANY</h3>
+                    <ul class="footer-li">
+                        <li><a class="footer-links" href="#">Home</a></li>
+                        <li><a class="footer-links" href="#">Shop</a></li>
+                        <li><a class="footer-links" href="#">Work</a></li>
+                        <li><a class="footer-links" href="#">How It Works</a></li>
+                        <li><a class="footer-links" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-li-article">
+                    <h3 class="footer-li-head">INFORMATION</h3>
+                    <ul class="footer-li">
+                        <li><a class="footer-links" href="#">Tearms & Condition</a></li>
+                        <li><a class="footer-links" href="#">Privacy Policy</a></li>
+                        <li><a class="footer-links" href="#">How to Buy</a></li>
+                        <li><a class="footer-links" href="#">How to Sell</a></li>
+                        <li><a class="footer-links" href="#">Promotion</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-li-article">
+                    <h3 class="footer-li-head">SHOP CATEGORY</h3>
+                    <ul class="footer-li">
+                        <li><a class="footer-links" href="#">Men</a></li>
+                        <li><a class="footer-links" href="#">Women</a></li>
+                        <li><a class="footer-links" href="#">Child</a></li>
+                        <li><a class="footer-links" href="#">Apparel</a></li>
+                        <li><a class="footer-links" href="#">Brows All</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-network container">
+                <p class="copyright">&copy; 2021 All rights reserved.</p>
+                <nav class="icons">
+                    <i class="fab icon fa-facebook-square"></i>
+                    <i class="fab icon fa-twitter-square"></i>
+                    <i class="fab icon fa-instagram-square"></i>
+                    <i class="fab icon fa-pinterest-square"></i>
+                    <i class="fab icon fa-google-plus-square"></i>
+                </nav>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
