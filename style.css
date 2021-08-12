@@ -365,7 +365,7 @@ color: #9f9f9f;
 .card:hover .card-img{
     filter: brightness(50%);
 }
-.card:hover .add-button{
+.card:hover .add-button_card{
 display: flex;
 }
 .card-link{
@@ -388,22 +388,22 @@ font-size: 16px;
 font-weight: 700;
 text-transform: uppercase;
 }
-.add-button{
+.add-button_card{
     position: absolute;
     top:98px;
     display: none;
     justify-content: center;
     width:100%;
 }
-.add{
+.add-card_link{
     text-decoration: none;
     display: flex;
-    align-items: center;
     color: #fff;
     border: #fff solid 1px;
     padding: 10px;
+    align-items: center;
 }
-.add:hover{
+.add-card_link:hover{
     box-shadow: 0 0 10px #fff
 }
 
@@ -687,6 +687,249 @@ margin-right: 8px;
     background-color: #e6e6e6;
     color: #ffffff;
 }
+.new-arrivals{
+    background-color: #f8f3f4;
+}
+.breadcrumb-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+.breadcrumb{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.new{
+    color: #f16d7f;
+font-family: "Lato - Bold" sans-serif;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: 400;
+}
+.breadcrumb-link{
+    color: #636363;
+font-family: "Lato Light" sans-serif;
+font-weight: 300;
+font-size: 14px;
+text-transform: uppercase;
+}
+.breadcrumb-link:hover{
+    color: #f16d7f;
+}
+.thelast{
+color: #f16d7f;
+font-size: 14px;
+font-weight: 700;
+font-family: "Lato Light" sans-serif;
+text-transform: uppercase;
+}
+.slide{
+    border: 1px solid #eaeaea;
+background-color: #f7f7f7;
+}
+.carusel-item{
+  width: 100%;
+  max-height: 724px;
+  overflow: hidden;
+}
+.d-block{
+     height: 100%;
+  max-height: 724px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.swipe{
+    width: 47px;
+height: 47px;
+background-color: #2a2a2a;
+}
+.description{
+ justify-content: center;
+ padding-top: 73px;
+padding-bottom: 122px;
+border: 1px solid #eaeaea;
+background-color: #ffffff;
+}
+
+.collection{
+    text-align: center;
+    color: #f16d7f;
+font-size: 14px;
+font-weight: 700;
+margin-bottom: 15px;
+}
+.name-of-droduct{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 67px;
+    color: #4d4d4d;
+font-family: "Lato - Black" sans-serif;
+font-size: 18px;
+font-weight: 400;
+}
+.product-description{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+.white{
+    width: 42px;
+    height: 1px;
+    border: 1px solid #eaeaea;
+background-color: #ef5b70;
+}
+.pink{
+    width: 63px;
+    height: 3px;
+    background-color: #ef5b70;
+}
+.white-pink{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+.product-info{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 334px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+.material{
+color: #2f2f2f;
+font-size: 14px;
+font-weight: 700;
+}
+.material-span{
+color: #b9b9b9;
+font-size: 14px;
+font-weight: 700;
+}
+.designer{
+color: #2f2f2f;
+font-size: 14px;
+font-weight: 700;
+}
+.designer-span{
+color: #b9b9b9;
+font-size: 14px;
+font-weight: 700;
+}
+.product-price{
+text-align: center;
+color: #ef5b70;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 43px;
+}
+.description-horizon__wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.choose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin:0 auto;
+    margin-bottom: 28px;
+    justify-content: space-between;
+}
+.label-choose{
+color: #2f2f2f;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.choose-style{
+width: 144px;
+height: 35px;
+border: 1px solid #eaeaea;
+background-color: #ffffff;
+color: #2f2f2f;
+font-size: 14px;
+font-weight: 700;
+}
+.color-red{
+font-size:  12px;
+color: red;
+}
+.color-black{
+font-size:  12px;
+color: black;
+}
+.color-white{
+font-size:  12px;
+color: #fff;
+}
+.color-pink{
+font-size:  12px;
+color: #ef5b70;
+}
+.color-blue{
+font-size:  12px;
+color: blue;
+}
+.description-horizon{
+ width: 642px;
+height: 1px;
+border: 1px solid #eaeaea;
+background-color: #ef5b70;
+margin: 0;
+}
+.description-button{
+border: 1px solid #ef5b70;
+background-color: #ffffff;
+color: #ef5b70;
+font-size: 16px;
+font-weight: 700;
+padding: 23px 206px;
+}
+.description-button:hover{
+    background-color:#ef5b70;
+    color:#ffffff; 
+}
+.description-button__wrap{
+    display: flex;
+    justify-content: center;
+}
+.youmayalso-heading{
+    color: #4d4d4d;
+font-family: "Lato - Black" sans-serif;
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+margin-top: 119px;
+display: flex;
+justify-content: center;
+}
+.youmayalso-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.cardimg{
+
+}
+.price_stars{
+    display: flex;
+    justify-content: space-between;
+}
+.stars{
+color: #e4af48;;
+}
+
+
+
 
 
 
