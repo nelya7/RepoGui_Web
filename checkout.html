@@ -10,7 +10,9 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/48795fafbf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,14 +23,14 @@
             <div class="header-left">
                 <div class="logo">
                     <a class="brand" href="index.html">
-                        <img src="images/logo.png" alt="" width="59" height="51">
+                        <img src="images/logo.png" alt="логотип" width="59" height="51">
                     </a>
                 </div>
                 <div class="bran-D">
                     <a class="brand-word" href="#">bran<span class="text-D">d</span></a>
                 </div>
                 <div class="search-line">
-                    <button class="browse" type="menu">Browse <img src="images/browse.png" alt="browse"></button>
+                    <button class="browse" type="button">Browse <img src="images/browse.png" alt="browse"></button>
                     <form class="form-search">
                         <input class="search" type="search" placeholder="Search for item.." aria-label="Search"><button
                             class="loupe" type="submit"><img src="images/lupa.png" alt="search"></button>
@@ -36,8 +38,9 @@
                 </div>
             </div>
             <div class="header-right">
-                <a class="cart-image" href="soppingcart.html"><i class="icon-cart fas fa-shopping-cart"></i></a>
-                <button class="account" type="menu">My Account <img src="images/account.png" alt="my account"></button>
+                <a class="cart-image" href="#"><i class="icon-cart fas fa-shopping-cart"></i></a>
+                <button class="account" type="button">My Account <img src="images/account.png"
+                        alt="my account"></button>
             </div>
         </div>
     </header>
@@ -46,7 +49,7 @@
             <ul class="menu">
                 <li class="menu-home"><a class="nav-link" href="index.html">home</a></li>
                 <li class="menu-li">
-                    <a class="nav-link" href="catalog.html">man</a>
+                    <a class="nav-link" href="singlepage.html">man</a>
                     <div class="box-menu">
                         <div class="box-item">
                             <h3 class="box-item__heading">woman</h3>
@@ -245,221 +248,175 @@
             </ul>
         </div>
     </nav>
-    <header>
-        <div class="top-head">
-            <div class="top-heading container">
-                <div class="main-heading">
-                    <h1 class="heading-top"><span class="the-brand">the brand</span> <br> of luxerious <span
-                            class="fashion">fashion</span>
-                    </h1>
-                </div>
-            </div>
+    <div class="new-arrivals">
+        <div class="breadcrumb-box container">
+            <div class="new">new arrivals</div>
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item slash"><a class="breadcrumb-link" href="index.html">home</a></li>
+                    <li class="breadcrumb-item slash margin"><a class="breadcrumb-link" href="#">man</a></li>
+                    <li class="breadcrumb-item thelast margin" aria-current="page">new arrivals</li>
+                </ul>
+            </nav>
         </div>
-    </header>
-    <section>
-        <div class="container photos">
-            <div class="photos-left">
-                <div class="photo-man">
-                    <img class="pic-img" src="images/MAN.png" alt="photo">
-                    <p class="photo-text_man">hot deal<br> <span class="for-men">for men</span></p>
-                </div>
-                <div class="photo-accsesorise">
-                    <img class="pic-img" src="images/ACCESORISE.png" alt="photo">
-                    <p class="photo-text_acc">luxerious & trendy<br> <span class="for-men">accesorise</span></p>
-                </div>
-            </div>
-            <div class="photos-right">
-                <div class="photo-women">
-                    <img class="pic-img" src="images/WOMEN.png" alt="photo">
-                    <p class="photo-text_women">30% offer<br> <span class="for-men">women</span></p>
-                </div>
-                <div class="photo-kids">
-                    <img class="pic-img" src="images/KIDS.png" alt="photo">
-                    <p class="photo-text_kids">new arrivals<br> <span class="for-men">for kids</span></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="middle-article">
-        <div class="container">
-            <div class="middle">
-                <h2 class="middle-head">Fetured Items</h2>
-                <p class="middle-par">Shop for items based on what we featured in this week</p>
-            </div>
-            <div class="card-box">
-                <div class="card">
-                    <a class="card-link" href="singlepage.html">
-                        <img class="card-img" src="images/card_1.png" alt="карточка товара">
-                        <div class="card-txt">
-                            <h3 class="card-name">Mango People T-shirt</h3>
-                            <p class="price">$52.00</p>
+    </div>
+    <div class="checkout-accordion">
+        <div class="accordion accordion-flush container" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header__checkout" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button my_accordion-button_checkout" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        01. Shipping Adress
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <div class="registration">
+                            <div class="guest">
+                               <div class="guest-paragraph_wrap">
+                                    <h4 class="guest-paragraph_header">check as a guest or register</h4>
+                                    <p class="guest-paragraph">Register with us for future convenience</p>
+                               </div>
+                                <div class="guest-radio">
+                                    <label class="radio-label" for="CHECKOUT AS A GUEST">
+                                        <input type="radio" id="CHECKOUT AS A GUEST" onchange="CHECKOUTASAGUEST"> CHECKOUT AS A GUEST
+                                    </label> <br>
+                                    <label class="radio-label" for="REGISTER">
+                                        <input type="radio" id="REGISTER" checked="checked" onchange="REGISTER"> REGISTER
+                                    </label>
+                                </div>
+                                <div class="register-paragraph">
+                                    <h4 class="guest-paragraph_header">register and save time!</h4>
+                                    <p class="guest-paragraph">Register with us for future convenience</p>
+                                </div>
+                                <div class="register_mini-list__wrap">
+                                    <ul class="register_mini-list">
+                                        <li><a class="register_mini-list__link" href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i> Fast and easy checkout</a></li>
+                                        <li><a class="register_mini-list__link" href="#"><i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i> Easy access to your order history and status</a></li>
+                                    </ul>
+                                </div>
+                                <div class="continue-button__wrap">
+                                    <button class="continue-button" type="button">continue</button>
+                                </div>
+                            </div>
+                            <div class="already">
+                                <div class="already-paragraph_wrap">
+                                    <h4 class="guest-paragraph_header">Already registed?</h4>
+                                    <p class="guest-paragraph">Please log in below</p>
+                                </div>
+                                <form action="#">
+                                    <label class="already-label" for="email">email address <em>*</em></label> <br>
+                                    <input class="already-input" id="email" type="email"> <br>
+                                    <label class="already-label" for="password">password <em>*</em></label> <br>
+                                    <input class="already-input" id="password" type="password">
+                                    <p class="required">* Required Fileds</p>
+                                    <div class="login-button__wrap">
+                                        <button class="continue-button continue-button_already" type="button">log in</button>
+                                        <a class="already_mini-list__link" href="#">Forgot Password ?</a>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                    </a>
-                    <div class="add-button_card">
-                        <a class="add-card_link" href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <p class="cart-txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a class="card-link" href="singlepage.html">
-                        <img class="card-img" src="images/card_2.png" alt="карточка товара">
-                        <div class="card-txt">
-                            <h3 class="card-name">Mango People T-shirt</h3>
-                            <p class="price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-button_card">
-                        <a class="add-card_link" href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <p class="cart-txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a class="card-link" href="singlepage.html">
-                        <img class="card-img" src="images/card_3.png" alt="карточка товара">
-                        <div class="card-txt">
-                            <h3 class="card-name">Mango People T-shirt</h3>
-                            <p class="price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-button_card">
-                        <a class="add-card_link" href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <p class="cart-txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a class="card-link" href="singlepage.html">
-                        <img class="card-img" src="images/card_4.png" alt="карточка товара">
-                        <div class="card-txt">
-                            <h3 class="card-name">Mango People T-shirt</h3>
-                            <p class="price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-button_card">
-                        <a class="add-card_link" href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <p class="cart-txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a class="card-link" href="singlepage.html">
-                        <img class="card-img" src="images/card_5.png" alt="карточка товара">
-                        <div class="card-txt">
-                            <h3 class="card-name">Mango People T-shirt</h3>
-                            <p class="price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-button_card">
-                        <a class="add-card_link" href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <p class="cart-txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a class="card-link" href="singlepage.html">
-                        <img class="card-img" src="images/card_6.png" alt="карточка товара">
-                        <div class="card-txt">
-                            <h3 class="card-name">Mango People T-shirt</h3>
-                            <p class="price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-button_card">
-                        <a class="add-card_link" href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <p class="cart-txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a class="card-link" href="singlepage.html">
-                        <img class="card-img" src="images/card_7.png" alt="карточка товара">
-                        <div class="card-txt">
-                            <h3 class="card-name">Mango People T-shirt</h3>
-                            <p class="price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-button_card">
-                        <a class="add-card_link" href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <p class="cart-txt">Add to Cart</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a class="card-link" href="singlepage.html">
-                        <img class="card-img" src="images/card_8.png" alt="карточка товара">
-                        <div class="card-txt">
-                            <h3 class="card-name">Mango People T-shirt</h3>
-                            <p class="price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="add-button_card">
-                        <a class="add-card_link" href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <p class="cart-txt">Add to Cart</p>
-                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="card-button">
-            <button class="button-style" type="submit">Browse All Product <i class="fas fa-long-arrow-alt-right"></i>
-            </button>
-        </div>
-    </section>
-    <section>
-        <div class="banner">
-            <div class="container banner-all">
-                <div class="photo-ban">
-                    <div class="gradient">
-                        <h2 class="for-women"><span class="percent">30% <span class="offer">offer</span></span> <br> for
-                            women
-                        </h2>
+            <div class="accordion-item">
+                <h2 class="accordion-header__checkout" id="flush-headingTwo">
+                    <button class="accordion-button collapsed my_accordion-button_checkout" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        02. BILLING INFORMATION
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the
+                        <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
+                        this being
+                        filled with some actual content.
                     </div>
-
                 </div>
-                <div class="ban-info">
-                    <div class="ban-info__item">
-                        <img class="img-info" src="images/delivery.svg" alt="delivery">
-                        <div class="info-item__mini">
-                            <h4 class="ban-info__heading">Free Delivery</h4>
-                            <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph
-                                next-generation
-                                innov tion with extensive
-                                models.</p>
-                        </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header__checkout" id="flush-headingThree">
+                    <button class="accordion-button collapsed my_accordion-button_checkout" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        03. SHIPPING INFORMATION
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the
+                        <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                        exciting
+                        happening here in terms of content, but just filling up the space to make it look, at least at
+                        first
+                        glance, a bit more representative of how this would look in a real-world application.
                     </div>
-                    <div class="ban-info__item">
-                        <img class="img-info" src="images/sales.svg" alt="sales">
-                        <div class="info-item__mini">
-                            <h4 class="ban-info__heading">Sales & discounts</h4>
-                            <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph
-                                next-generation
-                                innov tion with extensive
-                                models.</p>
-                        </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header__checkout" id="flush-headingThree">
+                    <button class="accordion-button collapsed my_accordion-button_checkout" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        04. SHIPPING METHOD
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the
+                        <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                        exciting
+                        happening here in terms of content, but just filling up the space to make it look, at least at
+                        first
+                        glance, a bit more representative of how this would look in a real-world application.
                     </div>
-                    <div class="ban-info__item">
-                        <img class="img-info" src="images/quality.svg" alt="quality">
-                        <div class="info-item__mini">
-                            <h4 class="ban-info__heading">Quality assurance</h4>
-                            <p class="ban-info__article">Worldwide delivery on all. Authorit tively morph
-                                next-generation
-                                innov tion with extensive
-                                models.</p>
-                        </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header__checkout" id="flush-headingThree">
+                    <button class="accordion-button collapsed my_accordion-button_checkout" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        05. PAYMENT METHOD
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the
+                        <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                        exciting
+                        happening here in terms of content, but just filling up the space to make it look, at least at
+                        first
+                        glance, a bit more representative of how this would look in a real-world application.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header__checkout" id="flush-headingThree">
+                    <button class="accordion-button collapsed my_accordion-button_checkout" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        06. ORDER REVIEW
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the
+                        <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                        exciting
+                        happening here in terms of content, but just filling up the space to make it look, at least at
+                        first
+                        glance, a bit more representative of how this would look in a real-world application.
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <footer>
         <div class="footer-top">
             <div class="footer-blur">
@@ -479,7 +436,8 @@
                     </figure>
                     <div class="vert-line"></div>
                     <form action="#">
-                        <h2 class="subscribe"><span class="sub">subscribe</span> <br> FOR OUR NEWLETTER AND PROMOTION
+                        <h2 class="subscribe"><span class="sub">subscribe</span> <br> FOR OUR NEWLETTER AND
+                            PROMOTION
                         </h2>
                         <div class="input">
                             <input class="email-line" type="email" placeholder="Enter Your Email"><button type="submit"
@@ -502,12 +460,15 @@
                             <a class="brand-word" href="#">bran<span class="text-D">d</span></a>
                         </div>
                     </div>
-                    <p class="footer-text footer-txt">Objectively transition extensive data rather than cross functional
+                    <p class="footer-text footer-txt">Objectively transition extensive data rather than cross
+                        functional
                         solutions. Monotonectally syndicate multidisciplinary
-                        materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and
+                        materials before go forward benefits. Intrinsicly syndicate an expanded array of processes
+                        and
                         cross-unit partnerships.</p> <br>
                     <p class="footer-text">Efficiently plagiarize 24/365 action items and focused infomediaries.
-                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                    </p>
                 </div>
                 <nav class="footer-li-article">
                     <h3 class="footer-li-head">COMPANY</h3>
@@ -545,11 +506,11 @@
             <div class="social-network container">
                 <p class="copyright">&copy; 2021 All rights reserved.</p>
                 <nav class="icons">
-                <i class="fab icon fa-facebook-square icon-block"></i>
-                <i class="fab icon fa-twitter-square icon-block"></i>
-                <i class="fab icon fa-instagram-square icon-block"></i>
-                <i class="fab icon fa-pinterest-square icon-block"></i>
-                <i class="fab icon fa-google-plus-square icon-block"></i>
+                    <i class="fab icon fa-facebook-square icon-block"></i>
+                    <i class="fab icon fa-twitter-square icon-block"></i>
+                    <i class="fab icon fa-instagram-square icon-block"></i>
+                    <i class="fab icon fa-pinterest-square icon-block"></i>
+                    <i class="fab icon fa-google-plus-square icon-block"></i>
                 </nav>
             </div>
         </div>
