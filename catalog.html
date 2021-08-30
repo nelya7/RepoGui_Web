@@ -19,251 +19,307 @@
 
 <body>
     <header class="contain">
-        <div class="header container">
-            <div class="header-left">
-                <div class="logo">
-                    <a class="brand" href="index.html">
-                        <img src="images/logo.png" alt="" width="59" height="51">
-                    </a>
-                </div>
-                <div class="bran-D">
-                    <a class="brand-word" href="#">bran<span class="text-D">d</span></a>
-                </div>
-                <div class="search-line">
-                    <button class="browse" type="button">Browse <img src="images/browse.png" alt="browse"></button>
-                    <form class="form-search">
-                        <input class="search" type="search" placeholder="Search for item.." aria-label="Search"><button
+        <div class="header-wrap">
+            <div class="header container">
+                <div class="header-left">
+                    <div class="logo"><a class="brand bran-D brand-word" href="index.html">
+                            <img class="img-logo" src="images/logo.png" alt="" width="59" height="51">bran<span
+                                class="text-D">d</span></a>
+                    </div>
+                    <nav class="search-line form-search">
+                        <button class="browse browse-button" type="menu">
+                            <a class="browse-link" href="#">Browse <img src="images/browse.png" alt="browse"></a>
+                            <div class="box-menu_browse">
+                                <div class="box-item">
+                                    <h3 class="box-item__heading">woman</h3>
+                                    <a class="box-item__link" href="#">Dresses</a>
+                                    <a class="box-item__link" href="#">Tops</a>
+                                    <a class="box-item__link" href="#">Leggings/Pants</a>
+                                    <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                    <a class="box-item__link" href="#">Nightwear</a>
+                                </div>
+                                <div class="box-item">
+                                    <h3 class="box-item__heading">woman</h3>
+                                    <a class="box-item__link" href="#">Denim</a>
+                                    <a class="box-item__link" href="#">Leggings/Pants</a>
+                                    <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                    <a class="box-item__link" href="#">Nightwear</a>
+                                </div>
+                                <div class="box-item">
+                                    <h3 class="box-item__heading">woman</h3>
+                                    <a class="box-item__link" href="#">Dresses</a>
+                                    <a class="box-item__link" href="#">Tops</a>
+                                    <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                </div>
+                            </div>
+                        </button>
+                        <input class="search" type="text" placeholder="Search for item.." aria-label="Search"><button
                             class="loupe" type="submit"><img src="images/lupa.png" alt="search"></button>
-                    </form>
+                    </nav>
                 </div>
-            </div>
-            <div class="header-right">
-                <a class="cart-image" href="#"><i class="icon-cart fas fa-shopping-cart"></i></a>
-                <button class="account" type="button">My Account <img src="images/account.png"
-                        alt="my account"></button>
-            </div>
-        </div>
-    </header>
-    <nav>
-        <div class="container">
-            <ul class="menu">
-                <li class="menu-home"><a class="nav-link" href="index.html">home</a></li>
-                <li class="menu-li">
-                    <a class="nav-link" href="#">man</a>
-                    <div class="box-menu">
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="menu-li"><a class="nav-link" href="#">women</a>
-                    <div class="box-menu">
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="menu-li"><a class="nav-link" href="#">kids</a>
-                    <div class="box-menu">
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-
-                        </div>
-                    </div>
-                </li>
-                <li class="menu-li"><a class="nav-link" href="#">accessories</a>
-                    <div class="box-menu">
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="menu-li"><a class="nav-link" href="#">fitured</a>
-                    <div class="box-menu">
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="menu-li last"><a class="nav-link" href="#">hot deals</a>
-                    <div class="box-menu">
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <a class="box-item__link" href="#">Blazers</a>
-                            <a class="box-item__link" href="#">Denim</a>
-                            <a class="box-item__link" href="#">Leggings/Pants</a>
-                            <a class="box-item__link" href="#">Skirts/Shorts</a>
-                            <a class="box-item__link" href="#">Nightwear</a>
-                        </div>
-                        <div class="box-item">
-                            <h3 class="box-item__heading">woman</h3>
-                            <a class="box-item__link" href="#">Dresses</a>
-                            <a class="box-item__link" href="#">Tops</a>
-                            <a class="box-item__link" href="#">Sweaters/Knits</a>
-                            <a class="box-item__link" href="#">Jackets/Coats</a>
-                            <div class="picture__box-item">
-                                <p class="super">super <br> sale!</p>
+                <div class="header-right">
+                    <div class="cart-box_header">
+                        <a class="cart-image" href="soppingcart.html"><i class="icon-cart fas fa-shopping-cart"></i></a>
+                        <div class="box-menu_cart">
+                            <div class="box-item_cart">
+                                <div class="cart-product__photo_mini"><img class="cart-product__photo"
+                                        src="images/cart-image-mini-2.png" alt="photo"></div>
+                                <div class="cart-product__info">
+                                    <a href="singlepage.html">
+                                        <h4 class="cart-product__heading_mini">Rebox Zane</h4>
+                                    </a>
+                                    <p class="cart-product__paragraph_mini">1 x $250</p>
+                                </div>
+                                <div class="cart-product_right__item cart-cross"><i class="fas fa-times-circle"></i></div>
+                            </div>
+                            <div class="box-item_cart">
+                                <div class="cart-product__photo_mini"><img class="cart-product__photo"
+                                        src="images/cart-image-mini-1.png" alt="photo"></div>
+                                <div class="cart-product__info">
+                                    <a href="singlepage.html">
+                                        <h4 class="cart-product__heading_mini">Rebox Zane</h4>
+                                    </a>
+                                    <p class="cart-product__paragraph_mini">1 x $250</p>
+                                </div>
+                                <div class="cart-product_right__item cart-cross"><i class="fas fa-times-circle"></i></div>
+                            </div>
+                            <div class="box-item_cart__total">
+                                <div class="totalsumm">TOTAL</div>
+                                <div class="totalsumm">$500.00</div>
+                            </div>
+                            <div class="cart-buttons_mini">
+                                <button onclick="document.location='checkout.html'" class="cart-button_mini"
+                                    type="button">Checkout</button>
+                                <button onclick="document.location='soppingcart.html'" class="cart-button_mini" type="button">Go
+                                    to
+                                    cart</button>
                             </div>
                         </div>
                     </div>
-                </li>
-            </ul>
+                    <button class="account" type="button">My Account <img src="images/account.png" alt="my account"></button>
+                </div>
+            </div>
         </div>
-    </nav>
-    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu-home"><a class="nav-link" href="index.html">home</a></li>
+                    <li class="menu-li">
+                        <a class="nav-link" href="#">man</a>
+                        <div class="box-menu">
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-li"><a class="nav-link" href="#">women</a>
+                        <div class="box-menu">
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-li"><a class="nav-link" href="#">kids</a>
+                        <div class="box-menu">
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+        
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+        
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-li"><a class="nav-link" href="#">accessories</a>
+                        <div class="box-menu">
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-li"><a class="nav-link" href="#">fitured</a>
+                        <div class="box-menu">
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-li last"><a class="nav-link" href="#">hot deals</a>
+                        <div class="box-menu">
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <a class="box-item__link" href="#">Blazers</a>
+                                <a class="box-item__link" href="#">Denim</a>
+                                <a class="box-item__link" href="#">Leggings/Pants</a>
+                                <a class="box-item__link" href="#">Skirts/Shorts</a>
+                                <a class="box-item__link" href="#">Nightwear</a>
+                            </div>
+                            <div class="box-item">
+                                <h3 class="box-item__heading">woman</h3>
+                                <a class="box-item__link" href="#">Dresses</a>
+                                <a class="box-item__link" href="#">Tops</a>
+                                <a class="box-item__link" href="#">Sweaters/Knits</a>
+                                <a class="box-item__link" href="#">Jackets/Coats</a>
+                                <div class="picture__box-item">
+                                    <p class="super">super <br> sale!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
         <div class="new-arrivals">
             <div class="breadcrumb-box container">
                 <div class="new">new arrivals</div>
                 <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item slash"><a class="breadcrumb-link" href="#">home</a></li>
-                        <li class="breadcrumb-item slash margin"><a class="breadcrumb-link" href="#">man</a></li>
+                        <li class="breadcrumb-item slash"><a class="breadcrumb-link" href="index.html">home</a></li>
+                        <li class="breadcrumb-item slash margin"><a class="breadcrumb-link" href="catalog.html">man</a></li>
                         <li class="breadcrumb-item thelast margin" aria-current="page">new arrivals</li>
                     </ul>
                 </nav>
             </div>
         </div>
-        <section>
+        <div>
             <div class="catalog-menu container">
-                <div class="accordion-menu">
+                <nav class="accordion-menu">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -376,65 +432,67 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </nav>
                 <div class="catalog">
-                    <div class="filters">
-                        <div class="check-trend">
-                            <h2 class="filter-heading">TRANDING NOW</h2>
-                            <div class="check-trand_trand">
-                                <div class="trand"><a class="trand" href="#">Bohemian</a></div>
-                                <div class="trand"><a class="trand" href="#">Floral</a></div>
-                                <div class="trand"><a class="trand" href="#">Lace</a></div>
-                                <div class="trand"><a class="trand" href="#">Floral</a></div>
-                                <div class="trand"><a class="trand" href="#">Lace</a></div>
-                               <div class="trand"><a class="trand" href="#">Bohemian</a></div>
+                    <nav>
+                        <div class="filters">
+                            <div class="check-trend">
+                                <h2 class="filter-heading">TRANDING NOW</h2>
+                                <div class="check-trand_trand">
+                                    <div class="trand"><a class="trand" href="#">Bohemian</a></div>
+                                    <div class="trand"><a class="trand" href="#">Floral</a></div>
+                                    <div class="trand"><a class="trand" href="#">Lace</a></div>
+                                    <div class="trand"><a class="trand" href="#">Floral</a></div>
+                                    <div class="trand"><a class="trand" href="#">Lace</a></div>
+                                    <div class="trand"><a class="trand" href="#">Bohemian</a></div>
+                                </div>
+                            </div>
+                            <div class="check-size">
+                                <h2 class="filter-heading">SIZE</h2>
+                                <div class="check-size_size">
+                                    <label class="size" for="XXS"><input class="input-size" id="XXS" type="checkbox"> XXS</label>
+                                    <label class="size" for="XS"><input id="XS" type="checkbox"> XS</label>
+                                    <label class="size" for="S"><input id="S" type="checkbox"> S</label>
+                                    <label class="size" for="M"><input id="M" type="checkbox"> M</label>
+                                    <label class="size" for="L"><input id="L" type="checkbox"> L</label>
+                                    <label class="size" for="XL"><input id="XL" type="checkbox"> XL</label>
+                                    <label class="size" for="XXL"><input id="XXL" type="checkbox"> XXL</label>
+                                </div>
+                            </div>
+                            <div class="check-price">
+                                <form oninput="resault.value(Range.value)" action="#">
+                                    <label class="price_range" for="range">PRICE</label> <br>
+                                    <input id="range" type="range" value="52" step="1">
+                                    <p>$<output name="resault" for="range">52</output> </p>
+                                </form>
                             </div>
                         </div>
-                        <div class="check-size">
-                            <h2 class="filter-heading">SIZE</h2>
-                            <div class="check-size_size">
-                                <label class="size" for="XXS"><input class="input-size" id="XXS" type="checkbox"> XXS</label>
-                                <label class="size" for="XS"><input id="XS" type="checkbox"> XS</label>
-                                <label class="size" for="S"><input id="S" type="checkbox"> S</label>
-                                <label class="size" for="M"><input id="M" type="checkbox"> M</label>
-                                <label class="size" for="L"><input id="L" type="checkbox"> L</label>
-                                <label class="size" for="XL"><input id="XL" type="checkbox"> XL</label>
-                                <label class="size" for="XXL"><input id="XXL" type="checkbox"> XXL</label>
+                        <div class="sorting">
+                            <div class="sort-by__box">
+                                <div class="sort-by">Sort By</div>
+                                <div class="select-sort">
+                                    <select class="sorting-option" name="sorting-option" id="sorting-option">
+                                        <option value="name">Name</option>
+                                        <option value="size">Size</option>
+                                        <option value="style">Style</option>
+                                        <option value="season">Season</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="amount__box">
+                                <div class="sort-by">Show</div>
+                                <div class="select-sort">
+                                    <select class="sorting-option" name="sorting-option" id="sorting-option">
+                                        <option value="9">9</option>
+                                        <option value="18">18</option>
+                                        <option value="30">30</option>
+                                        <option value="90">90</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
-                        <div class="check-price">
-                            <form oninput="resault.value(Range.value)" action="#">
-                            <label class="price_range" for="range">PRICE</label> <br>
-                        <input id="range" type="range" value="52" step="1">
-                    <p>$<output name="resault" for="range" >52</output> </p>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="sorting">
-                        <div class="sort-by__box">
-                            <div class="sort-by">Sort By</div>
-                            <div class="select-sort">
-                                <select class="sorting-option" name="sorting-option" id="sorting-option">
-                                    <option value="name">Name</option>
-                                    <option value="size">Size</option>
-                                    <option value="style">Style</option>
-                                    <option value="season">Season</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="amount__box">
-                            <div class="sort-by">Show</div>
-                            <div class="select-sort">
-                                <select class="sorting-option" name="sorting-option" id="sorting-option">
-                                    <option value="9">9</option>
-                                    <option value="18">18</option>
-                                    <option value="30">30</option>
-                                    <option value="90">90</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-box">
+                    </nav>
+                    <section class="card-box">
                         <div class="card">
                             <a class="card-link" href="singlepage.html">
                                 <img class="card-img" src="images/man-1.png" alt="карточка товара">
@@ -570,7 +628,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </section>
                     <div class="catalog-pagination">
                         <nav class="pagination-catalog">
                             <ul class="pagination-ul">
@@ -591,9 +649,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <section class="banner-catalog">
-            <div class="ban-info__catalog">
+            <div class="ban-info__catalog container">
                 <div class="ban-info_item__catalog">
                     <div class="info-item__mini">
                         <img class="img-info__catalog" src="images/delivery.svg" alt="delivery">
@@ -644,15 +702,14 @@
                             </div>
                         </figure>
                         <div class="vert-line"></div>
-                        <form action="#">
-                            <h2 class="subscribe"><span class="sub">subscribe</span> <br> FOR OUR NEWLETTER AND
-                                PROMOTION
-                            </h2>
-                            <div class="input">
-                                <input class="email-line" type="email" placeholder="Enter Your Email"><button type="submit"
-                                    class="email-line__button">Subscribe</button>
-                            </div>
+                    <div class="footer-form">
+                        <p class="subscribe"><span class="sub">subscribe</span> <br> FOR OUR NEWLETTER AND PROMOTION
+                        </p>
+                        <form class="footer-form_input" action="#">
+                            <input class="email-line" type="email" placeholder="Enter Your Email"><button type="submit"
+                                class="email-line__button">Subscribe</button>
                         </form>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -660,13 +717,8 @@
                 <div class="footer-nav container">
                     <div class="logo-article">
                         <div class="logo-footer">
-                            <div class="logo">
-                                <a class="brand" href="#">
-                                    <img src="images/logo.png" alt="" width="59" height="51">
-                                </a>
-                            </div>
-                            <div class="bran-D">
-                                <a class="brand-word" href="#">bran<span class="text-D">d</span></a>
+                            <div class="logo"><a class="brand bran-D brand-word" href="index.html">
+                                    <img class="img-logo" src="images/logo.png" alt="" width="59" height="51">bran<span class="text-D">d</span></a>
                             </div>
                         </div>
                         <p class="footer-text footer-txt">Objectively transition extensive data rather than cross
@@ -715,11 +767,11 @@
                 <div class="social-network container">
                     <p class="copyright">&copy; 2021 All rights reserved.</p>
                     <nav class="icons">
-                        <i class="fab icon fa-facebook-square icon-block"></i>
-                        <i class="fab icon fa-twitter-square icon-block"></i>
-                        <i class="fab icon fa-instagram-square icon-block"></i>
-                        <i class="fab icon fa-pinterest-square icon-block"></i>
-                        <i class="fab icon fa-google-plus-square icon-block"></i>
+                        <a class="icon-link" href="#"><i class="fab icon fa-facebook-square icon-block"></i></a>
+                        <a class="icon-link" href="#"><i class="fab icon fa-twitter-square icon-block"></i></a>
+                        <a class="icon-link" href="#"><i class="fab icon fa-instagram-square icon-block"></i></a>
+                        <a class="icon-link" href="#"><i class="fab icon fa-pinterest-square icon-block"></i></a>
+                        <a class="icon-link" href="#"><i class="fab icon fa-google-plus-square icon-block"></i></a>
                     </nav>
                 </div>
             </div>
